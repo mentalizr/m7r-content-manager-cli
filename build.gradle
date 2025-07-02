@@ -2,12 +2,12 @@ plugins {
     id 'java'
 }
 
-group 'org.mentalizr'
+group = 'org.mentalizr'
 version = rootProject.file('version').text.trim()
 
 repositories {
     mavenCentral()
-    maven { url "https://raw.githubusercontent.com/arthurpicht/mvn-repo/main/releases"}
+    maven { url = "https://raw.githubusercontent.com/arthurpicht/mvn-repo/main/releases"}
 }
 
 dependencies {
